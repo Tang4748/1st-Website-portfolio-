@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ethan Bloom's Portfolio</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+  <link rel="stylesheet" type="text/css" href="style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header class="page-head">
+    <a href="home.html">
+    <img src="img/Bloom-logos.jpeg" width="100" height="100" alt="logo" class="page-head__item">
+    </a>
+      <nav class="page-head__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a id="menubar"class="navigation-list__item--active" href="index.html" role="menuitem">Home</a>
+          </li>
+          <li role="presentation">
+            <a class="navigation-list__item--active" id="menubar" href="about.html" role="menuitem">About</a>
+          </li>
+          <li role="presentation">
+            <a class="navigation-list__item--active" id="menubar" href="contact.html" role="menuitem">Contact</a>
+          </li>
+          <li role="presentation">
+            <a class="navigation-list__item--active" id="menubar" href="work.html" role="menuitem">Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+<main>
+  <h1>Contact</h1>
+  <form action="" method="post" id="contact-form" class="grid">
+    <label class="standard-label" for="contact-email" required>*Email: </label>
+    <input type="email" id="contact-email" required>
+
+    <label class="standard-label" class="grid__item" for="contact-phone">*Telephone: </label>
+    <input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+
+    <label class="standard-label" class="grid__item" for="contact-message" required>*Message: </label>
+    <textarea maxlength="240" id="contact-message" required></textarea>
+
+    <input class="button" type="submit" value="Send Message">
+    <br>
+  <address>
+    <h2>My information</h2>
+    Seguin,78155<br>
+    Texas<br>
+    USA<br>
+    <br>
+    Tel. <a href="tel:+15164043037">5164043037</a><br>
+    Email: <a href="malito:ethbloom@gmail.com?subject=contact">ethbloom@gmail.com</a>
+  </address>
+  <br>
+  <a href="#">check out my resume</a>
+</main>
+<footer class="page-footer">
+  <p>Find me on</p>
+  <a href="https://github.com" target="_blank">
+  	<img src="img/github_icon.svg" alt="Github">
+	</a>
+	<a href="https://twitter.com" target="_blank">
+  	<img src="img/twitter_icon.svg" alt="Twitter">
+	</a>
+	<a href="https://linkedin.com" target="_blank">
+  	<img src="img/linkedin_icon.svg" alt="LinkedIn">
+  </a>
+</footer>
+</body>
+<script src="js/tota11y.min.js"></script>
+</html>

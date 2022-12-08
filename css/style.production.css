@@ -51,11 +51,6 @@ table {
   font-family: monospace;
 }
 
-#menubar {
-  color: #FF4B4B;
-  opacity: .8;
-}
-
 .web{
   color: yellow;
   background-color: red;
@@ -63,6 +58,8 @@ table {
 
 .navigation-list__item--active {
   text-decoration: none;
+  color: #FF4B4B;
+  opacity: .8;
 }
 
 a {
@@ -421,12 +418,12 @@ button:focus {
   border-right: .15em solid black;
   white-space: nowrap; 
   margin: 0 right;
-  letter-spacing: .01em;
+  letter-spacing: .03em;
   -webkit-animation:
-      typing 3s steps(30, end),
+      typing 5s steps(50, end),
       blink-caret 1s step-end infinite;
           animation:
-      typing 3s steps(30, end),
+      typing 5s steps(50, end),
       blink-caret 1s step-end infinite;
 }
 /* ------------MEDIA------------*/

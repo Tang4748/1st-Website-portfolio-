@@ -60,11 +60,6 @@ table {
   font-family: var(--font-family);
 }
 
-#menubar {
-  color: var(--menu-bar);
-  opacity: var(--opacity);
-}
-
 .web{
   color: var(--web);
   background-color: var(--web-background);
@@ -72,6 +67,8 @@ table {
 
 .navigation-list__item--active {
   text-decoration: none;
+  color: var(--menu-bar);
+  opacity: var(--opacity);
 }
 
 a {

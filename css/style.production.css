@@ -14,6 +14,10 @@ html {
           box-sizing: border-box;
 }
 
+html {
+   height: 100%;
+}
+
 body {
   background: #ffbe73; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear,  left top, left bottom,  from(#ffbe73),color-stop(50%, #ffc493),color-stop(51%, #ffc089),color-stop(57%, #ffbe73),to(#ffdabd));

@@ -194,6 +194,15 @@ button:focus,
   width: 100%;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: bottom;
+  width: 100%;
+}
+
 .center-align {
   max-width: 700px;
   margin: 0 auto;

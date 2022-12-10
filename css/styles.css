@@ -194,7 +194,7 @@ button:focus,
   width: 100%;
 }
 
-.contact {
+.info {
   display: flex;
   flex-direction: column;
   justify-content: center;

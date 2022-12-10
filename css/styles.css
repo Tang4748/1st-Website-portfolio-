@@ -1,9 +1,9 @@
 :root {
   --font-weight: 700;
-  --menu-bar:  #FF4B4B; 
-  --web: yellow;
+  --menu-bar: #a941ec; 
+  --web: rgb(183, 255, 0);
   --opacity: .8;
-  --web-background: red;
+  --web-background: rgb(89, 0, 255);
   --a: black; 
   --a-visited: #05676e;
   --a-active: #489c79;
@@ -24,17 +24,20 @@ html {
 }
 
 body {
-  background: #ffbe73; /* Old browsers */
-  background: -moz-linear-gradient(top,  #ffbe73 0%, #ffc493 50%, #ffc089 51%, #ffbe73 57%, #ffdabd 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #ffbe73 0%,#ffc493 50%,#ffc089 51%,#ffbe73 57%,#ffdabd 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #ffbe73 0%,#ffc493 50%,#ffc089 51%,#ffbe73 57%,#ffdabd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbe73', endColorstr='#ffdabd',GradientType=0 ); /* IE6-9 */
-  font-family: 'roboto', var(--font-family);
+  background: #AA5FE4;
+  background: -webkit-linear-gradient(top left, #AA5FE4, #EC9E5C);
+  background: -moz-linear-gradient(top left, #AA5FE4, #EC9E5C);
+  background: linear-gradient(to bottom right, #AA5FE4, #EC9E5C);
+  font-family: 'roboto', monospace;
   font-weight: 400;
   font-size: 16px;
   /* Sets the font size to 16px */
   line-height: 1.6;
   /* Sets the line-height to 1.6 */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -178,10 +181,13 @@ button:focus,
 }
 
 .page-footer {
-  clear: both;
+  bottom: 0;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  width: 100%;
 }
 
 .center-align {
@@ -189,6 +195,8 @@ button:focus,
   margin: 0 auto;
   text-align: center;
   display: table-row;
+  justify-content: right;
+  clear: both;
   }
 
 /* ------------GRID FALLBACK------------ */

@@ -19,17 +19,20 @@ html {
 }
 
 body {
-  background: #ffbe73; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear,  left top, left bottom,  from(#ffbe73),color-stop(50%, #ffc493),color-stop(51%, #ffc089),color-stop(57%, #ffbe73),to(#ffdabd));
-  background: -o-linear-gradient(top,  #ffbe73 0%,#ffc493 50%,#ffc089 51%,#ffbe73 57%,#ffdabd 100%);
-  background: linear-gradient(to bottom,  #ffbe73 0%,#ffc493 50%,#ffc089 51%,#ffbe73 57%,#ffdabd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbe73', endColorstr='#ffdabd',GradientType=0 ); /* IE6-9 */
+  background: #AA5FE4;
+  background: -webkit-gradient(linear, left top, right bottom, from(#AA5FE4), to(#EC9E5C));
+  background: -o-linear-gradient(top left, #AA5FE4, #EC9E5C);
+  background: linear-gradient(to bottom right, #AA5FE4, #EC9E5C);
   font-family: 'roboto', monospace;
   font-weight: 400;
   font-size: 16px;
   /* Sets the font size to 16px */
   line-height: 1.6;
   /* Sets the line-height to 1.6 */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -60,13 +63,13 @@ table {
 }
 
 .web{
-  color: yellow;
-  background-color: red;
+  color: rgb(183, 255, 0);
+  background-color: rgb(89, 0, 255);
 }
 
 .navigation-list__item--active {
   text-decoration: none;
-  color: #FF4B4B;
+  color: #a941ec;
   opacity: .8;
 }
 
@@ -234,7 +237,7 @@ button:focus {
 }
 
 .page-footer {
-  clear: both;
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,14 +245,14 @@ button:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: sticky;
+  width: 100%;
 }
 
 .center-align {
@@ -257,6 +260,10 @@ button:focus {
   margin: 0 auto;
   text-align: center;
   display: table-row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  clear: both;
   }
 
 /* ------------GRID FALLBACK------------ */

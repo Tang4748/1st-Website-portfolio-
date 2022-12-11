@@ -218,6 +218,11 @@ button:focus {
   width: 100%;
 }
 
+.shrink {
+  scale: .6;
+  text-align: center;
+}
+
 .info {
   display: flex;
   flex-direction: column;
@@ -228,11 +233,11 @@ button:focus {
 }
 
 .center-align {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
   display: table-row;
-  justify-content: right;
+  justify-content: center;
   clear: both;
   }
 
@@ -301,7 +306,7 @@ button:focus {
 
 .cloud-front {
   animation: 30s cloud-move infinite alternate linear;
-  scale: 2;
+  scale: 3;
 }
 
 @keyframes cloud-move-reverse {

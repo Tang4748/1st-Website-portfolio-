@@ -255,6 +255,11 @@ button:focus {
   width: 100%;
 }
 
+.shrink {
+  scale: .6;
+  text-align: center;
+}
+
 .info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -274,13 +279,13 @@ button:focus {
 }
 
 .center-align {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
   display: table-row;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   clear: both;
   }
 
@@ -395,7 +400,7 @@ button:focus {
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
           animation: 30s cloud-move infinite alternate linear;
-  scale: 2;
+  scale: 3;
 }
 
 @-webkit-keyframes cloud-move-reverse {

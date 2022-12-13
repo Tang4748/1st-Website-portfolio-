@@ -49,9 +49,18 @@ h3 {
   font-family: monospace;
 }
 
+p {
+  font-size: 16px;
+  padding: 2rem;
+  text-align: center;
+  font-size: larger;
+}
+
 table {
   font-weight: bold;
   font-family: monospace;
+  border-collapse: collapse;
+  width: 75%;
 }
 
 .web{
@@ -131,30 +140,9 @@ button {
   box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
 }
 
-button:hover {
-  /* lets the mouse appear as a hand when hovering over the button */
-  cursor: pointer;
-  /* reduces the opacity of the button to 80% */
-  opacity: .8;
-  box-shadow: none;
-}
-
-button:focus {
-  /* lets the mouse appear as a hand when hovering over the button */
-  cursor: pointer;
-  /* reduces the opacity of the button to 80% */
-  opacity: .8;
-  box-shadow: none;
-}
-
-.button:hover {
-  /* lets the mouse appear as a hand when hovering over the button */
-  cursor: pointer;
-  /* reduces the opacity of the button to 80% */
-  opacity: .8;
-  box-shadow: none;
-}
-
+button:hover,
+button:focus,
+.button:hover,
 .button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
@@ -162,6 +150,7 @@ button:focus {
   opacity: .8;
   box-shadow: none;
 }
+
 
 .button__secondary {
   background-color: #e0b354;
@@ -176,7 +165,16 @@ button:focus {
 .logo {
   flex: 0 1 200px;
 }
+  /*
+  box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
+}
 
+.logo:hover,
+.logo:focus {
+  opacity: .8;
+  box-shadow: none;
+}
+*/
 .navigation-list {
   list-style-position: outside;
 }

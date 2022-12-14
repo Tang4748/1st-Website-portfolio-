@@ -63,7 +63,7 @@ strong {
   font-family: monospace;
 }
 
-p {
+.p {
   font-size: 16px;
   padding: 2rem;
   text-align: center;
@@ -75,6 +75,7 @@ table {
   font-family: monospace;
   border-collapse: collapse;
   width: 75%;
+  padding: 3rem;
 }
 
 .web{

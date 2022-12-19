@@ -257,7 +257,7 @@ button:focus,
      display: grid;
      grid-template-columns: 350px;
      justify-content: center;
-     grid-gap: 5px;
+     grid-gap: 15px;
    }
  
  .grid__item {
@@ -266,6 +266,7 @@ button:focus,
    min-height: auto;
    margin: 0;
    padding:  10px;
+   border-radius: 8px;
  }
  
   .grid__item:last-child {

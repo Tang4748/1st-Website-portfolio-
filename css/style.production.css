@@ -307,7 +307,7 @@ button:focus,
      -webkit-box-pack: center;
          -ms-flex-pack: center;
              justify-content: center;
-     grid-gap: 5px;
+     grid-gap: 15px;
    }
  
  .grid__item {
@@ -316,6 +316,7 @@ button:focus,
    min-height: auto;
    margin: 0;
    padding:  10px;
+   border-radius: 8px;
  }
  
   .grid__item:last-child {

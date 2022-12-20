@@ -234,6 +234,19 @@ button:focus,
   align-items: center;
   position: bottom;
   width: 100%;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: bottom;
+  border: inset 2px #e0b354;
+  border-radius: 10px;
+  width: 60%;
+  padding: 35px;
+  margin: 0 auto;
 }
 
 .center-align {
@@ -261,7 +274,7 @@ button:focus,
    }
  
  .grid__item {
-   background-color: #fb8b39;
+   background-color: grey;
    width: auto;
    min-height: auto;
    margin: 0;

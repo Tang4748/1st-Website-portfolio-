@@ -258,6 +258,19 @@ button:focus,
   clear: both;
   }
 
+.social-links {
+  display: inherit;
+  transition: transform .2s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: transform;
+}
+
+.social-links:hover {
+  transform: scale(1.2);
+}
+
 /* ------------GRID FALLBACK------------ */
 .grid__item {
   display: inline-block;

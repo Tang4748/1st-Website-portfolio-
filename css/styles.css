@@ -60,6 +60,7 @@ strong {
   padding: 2rem;
   text-align: center;
   font-size: larger;
+  padding: 20px;
 }
 
 table {
@@ -67,6 +68,7 @@ table {
   font-family: monospace;
   border-collapse: collapse;
   width: 75%;
+  justify-content: center;
 }
 
 .web{
@@ -364,7 +366,7 @@ button:focus,
   50% { border-color: black }
 }
 
-.type-writer {
+/* .type-writer {
   overflow: hidden;
   border-right: .15em solid black;
   white-space: nowrap; 

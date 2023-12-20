@@ -366,7 +366,7 @@ button:focus,
   50% { border-color: black }
 }
 
-.type-writer {
+/* .type-writer {
   overflow: hidden;
   border-right: .15em solid black;
   white-space: nowrap; 

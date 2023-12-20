@@ -194,6 +194,7 @@ button:focus,
   -webkit-box-flex: 0;
       -ms-flex: 0 1 200px;
           flex: 0 1 200px;
+  scale: 1.3;
 }
   /*
   box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
@@ -514,19 +515,7 @@ div {
   50% { border-color: black }
 }
 
-.type-writer {
-  overflow: hidden;
-  border-right: .15em solid black;
-  white-space: nowrap; 
-  margin: 0 right;
-  letter-spacing: .03em;
-  -webkit-animation:
-      typing 5s steps(50, end),
-      blink-caret 1s step-end infinite;
-          animation:
-      typing 5s steps(50, end),
-      blink-caret 1s step-end infinite;
-}
+
 /* ------------MEDIA------------*/
 
 /* makes website better for smaller screen sizes, should always be at the end of css */ 

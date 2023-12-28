@@ -33,6 +33,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 
 
@@ -44,24 +45,49 @@ h1 {
   line-height: 1;
   display:inline-block;
   margin-top: 30px;
+  color: whitesmoke;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
   font-family: monospace;
+  color: whitesmoke;
 }
 
 h3 {
   font-size: 18px;
   font-weight: 700;
   font-family: monospace;
+  color: whitesmoke;
 }
 
 strong {
   font-size: 20px;
   font-weight: 700;
   font-family: monospace;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: monospace;
+  color: whitesmoke;
+}
+
+th {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: monospace;
+  color: whitesmoke;
+}
+
+td {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: monospace;
+  color: whitesmoke;
 }
 
 .p {
@@ -70,6 +96,7 @@ strong {
   text-align: center;
   font-size: larger;
   padding: 20px;
+  color: whitesmoke;
 }
 
 table {
@@ -92,7 +119,7 @@ table {
 }
 
 a {
-  color: black;
+  color: white;
   opacity: .8;
   font-family: monospace;
 }
@@ -107,12 +134,12 @@ a:hover, a:focus {
 
 a:visited {
   /* visited link */
-  color: #05676e;
+  color: white;
 }
 
 a:active {
   /* selected link */
-  color: #489c79;
+  color: black;
 }
 
 input, textarea, select, button {
@@ -128,7 +155,7 @@ input, textarea, select, button {
   font-family: inherit;
   /* style button */
   background-color: #357b70;
-  color: white;
+  color: whitesmoke;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -153,7 +180,7 @@ button {
   font-family: inherit;
   /* style button */
   background-color: #357b70;
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -260,6 +287,7 @@ button:focus,
           align-items: center;
   position: bottom;
   width: 100%;
+  color: whitesmoke;
 }
 
 .shrink {
